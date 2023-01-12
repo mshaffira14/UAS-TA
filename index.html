@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>SaladLaffin</title>
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+	<!-- Favicon -->
+	<link rel="icon" type="image/ico" sizes="32x32" href="assets/images/icon.jpg">
+	<!-- CSS Bootstrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+	<!-- Fontawesome-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- CSS External -->
+	<link rel="stylesheet" href="style/style.css">
+</head>
+
+<body id="home">
+	<!-- navbar -->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm fixed-top">
+		<div class="container">
+			<a class="navbar-brand fw-bold fs-4" href="#"><span class="text-success">Salad</span>LAFFIN</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+				aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+				<div class="navbar-nav me-auto mb-2 mb-lg-0">
+					<ul class="navbar-nav fw-semibold">
+						<li class="nav-item">
+							<a class="nav-link text-uppercase fs-6 active" aria-current="page" href="#home">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-uppercase fs-6" href="#about">About</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+								data-bs-toggle="dropdown" aria-expanded="false">
+								SHOP
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<li><a class="dropdown-item" href="#menu">Menu</a></li>
+								<li><a class="dropdown-item" href="#outlet">Outlet</a></li>
+								<li><a class="dropdown-item" href="#review">Review</a></li>
+								<li>
+									<hr class="dropdown-divider">
+								</li>
+								<li><a class="dropdown-item" href="#contact">Contact</a></li>
+							</ul>
+						<li class="nav-item">
+							<a class="nav-link" href="login.html" tabindex="-1" aria-disabled="true">Login</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="register.html" tabindex="-1" aria-disabled="true">Register</a>
+						</li>
+				</div>
+				<form class="d-flex">
+					<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+					<button class="btn btn-outline-success" type="submit">Search</button>
+				</form>
+				<div class="icons">
+					<a href="order.html" class="fa fa-shopping-cart"></a>
+				</div>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!-- carousel -->
+	<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+		<div class="carousel-indicators">
+			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+				aria-current="true" aria-label="Slide 1"></button>
+			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+				aria-label="Slide 2"></button>
+			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+				aria-label="Slide 3"></button>
+			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+				aria-label="Slide 4"></button>
+		</div>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="assets/images/slide-1.jpg" class="d-block w-100" alt="...">
+				<div class="carousel-caption">
+					<h5>Aneka Salad</h5>
+					<p>Makanan adalah kebutuhan terpenting untuk tubuh kita. Tubuh sehat diperoleh dari makanan yang
+						sehat.</p>
+					<p><a href="#" class="btn btn-success mt-2">Buy Now</a></p>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="assets/images/slide-2.webp" class="d-block w-100" alt="...">
+				<div class="carousel-caption">
+					<h5>Salad 750mL</h5>
+					<p>Memiliki tubuh yang sehat adalah idaman semua orang. Salad adalah makanan sehat yang juga nikmat.
+					</p>
+					<p><a href="#" class="btn btn-success mt-2">Buy Now</a></p>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="assets/images/slide-3.jpg" class="d-block w-100" alt="...">
+				<div class="carousel-caption">
+					<h5>Salad 500mL</h5>
+					<p>Salad 500mL adalah yang terlaris di toko kami. Order sebelum kehabisan!</p>
+					<p><a href="#" class="btn btn-success mt-2">Buy Now</a></p>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="assets/images/slide-4.jfif" class="d-block w-100" alt="...">
+				<div class="carousel-caption">
+					<h5>Salad 300mL</h5>
+					<p>Di toko kami juga tersedia ukuran kecil. Segera order sebelum kehabisan!</p>
+					<p><a href="#" class="btn btn-success mt-2">Buy Now</a></p>
+				</div>
+			</div>
+		</div>
+		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+			data-bs-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Previous</span>
+		</button>
+		<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+			data-bs-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Next</span>
+		</button>
+	</div>
+
+	<!-- about -->
+	<div id="about" class="about p-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="text-uppercase fw-bold fs-4 text-center p-5">
+						<p>About</p>
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-12 col-lg-6">
+					<div class="about">
+						<img src="assets/images/about.jpg" alt="" class="img-fluid">
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-12 col-lg-6 mt-4">
+					<div class="about-text justify-content-">
+						<p>Salad Laffin kini hadir di Semarang! </p>
+						<p>Kesehatan adalah hal terpenting untuk menunjang kehidupan yang lebih baik,
+							maka dari itu, kami membuka cabang baru di semarang agar masyarakat semarang
+							dapat makan dengan sehat.
+						</p>
+						<p>Tersedia berbagai macam varian rasa dan ukuran untuk menemani aktivitas hari-hari
+							Anda. Tak perlu ke outlet kami, tinggal klik lewat hp Anda, kami siap melayani
+							segera!
+						</p>
+						<p>Salad Laffin berdiri pertama kali sejak tahun 2016 di outlet Pemalang dan kini
+							terus menyebar ke seluruh Indonsia.</p>
+						<p> outlet kami dijamin kebersihan dan keasriannya, Anda bisa makan salad ditemani
+							dengan pemandangan alam yang sangat sejuk. Kenyamanan Anda adalah prioritas kami.</p>
+						<p>Ayo jangan sampai ketinggalan untuk memesannya! Nantikan diskon-diskon spesial
+							dari kami dan tentunya nantikan pula kami ada di kota Anda!</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Menu -->
+	<div id="menu" class="menu p-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="text-uppercase text-center fw-bold fs-4 p-5">
+						<p>Menu</p>
+					</div>
+				</div>
+				<section class="menu" id="menu">
+					<div class="box-container">
+						<div class="box">
+							<img src="assets/images/salad1.png" alt="">
+							<h3>Salad 500mL</h3>
+							<div class="price">22.000 <span>35.000</span></div>
+							<button type="submit" class="btn-checkout">
+								Check Out
+							</button>
+						</div>
+						<div class="box">
+							<img src="assets/images/salad3.webp" alt="">
+							<h3>Salad Extra large</h3>
+							<div class="price">85.000<span>100.000</span></div>
+							<button type="submit" class="btn-checkout">
+								Check Out
+							</button>
+						</div>
+						<div class="box">
+							<img src="assets/images/salad4.jpg" alt="">
+							<h3>Salad 500mL (Tanpa Keju)</h3>
+							<div class="price">21.000<span>35.000</span></div>
+							<button type="submit" class="btn-checkout">
+								Check Out
+							</button>
+						</div>
+						<div class="box">
+							<img src="assets/images/salad2.jpg" alt="">
+							<h3>Salad 750mL</h3>
+							<div class="price">80.000<span>90.000</span></div>
+							<button type="submit" class="btn-checkout">
+								Check Out
+							</button>
+						</div>
+						<div class="box">
+							<img src="assets/images/salad5.jpg" alt="">
+							<h3>Salad Mini (200mL)</h3>
+							<div class="price">16.000<span>20.000</span></div>
+							<button type="submit" class="btn-checkout">
+								Check Out
+							</button>
+						</div>
+						<div class="box">
+							<img src="assets/images/salad6.jpg" alt="">
+							<h3>Salad 400mL</h3>
+							<div class="price">20.000<span>35.000</span></div>
+							<button type="submit" class="btn-checkout">
+								Check Out
+							</button>
+				</section>
+			</div>
+		</div>
+	</div>
+
+	<!-- outlet -->
+	<div id="outlet" class="outlet p-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="text-uppercase fw-bold fs-4 text-center p-5">
+						<p>Outlet</p>
+					</div>
+				</div>
+				<div class="row">
+					<iframe
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126708.0617326696!2d110.28923121640626!3d-7.053048599999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e708d2668e46091%3A0xa11cc322d137b51a!2sSalad%20MOI%20(%231%20Healthy%20Salad%20Buah)%20-%20Tembalang!5e0!3m2!1sid!2sid!4v1671329212942!5m2!1sid!2sid"
+						width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+						referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+				<div class="col-md-6 col-lg-4">
+					<div class="card mt-4 shadow">
+						<div class="card-body d-flex py-4 px-4 align-items-center">
+							<img src="https://img.icons8.com/external-bartama-glyph-64-bartama-graphic/64/null/external-Shop-e-commerce-glyph-bartama-glyph-64-bartama-graphic.png"
+								alt="...">
+							<h5 class="outlet-title ms-2">Pemalang</h5>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4">
+					<div class="card mt-4 shadow">
+						<div class="card-body d-flex py-4 px-4 align-items-center">
+							<img src="https://img.icons8.com/external-bartama-outline-64-bartama-graphic/64/null/external-Shop-e-commerce-outline-bartama-outline-64-bartama-graphic.png"
+								alt="...">
+							<h5 class="outlet-title ms-2">Bandung</h5>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4">
+					<div class="card mt-4 shadow">
+						<div class="card-body d-flex py-4 px-4 align-items-center">
+							<img src="https://img.icons8.com/external-bartama-glyph-64-bartama-graphic/64/null/external-Shop-e-commerce-glyph-bartama-glyph-64-bartama-graphic.png"
+								alt="...">
+							<h5 class="outlet-title ms-2">Surabaya</h5>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4">
+					<div class="card mt-4 shadow">
+						<div class="card-body d-flex py-4 px-4 align-items-center">
+							<img src="https://img.icons8.com/external-bartama-outline-64-bartama-graphic/64/null/external-Shop-e-commerce-outline-bartama-outline-64-bartama-graphic.png"
+								alt="...">
+							<h5 class="outlet-title ms-2">Jakarta</h5>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4">
+					<div class="card mt-4 shadow">
+						<div class="card-body d-flex py-4 px-4 align-items-center">
+							<img src="https://img.icons8.com/external-bartama-glyph-64-bartama-graphic/64/null/external-Shop-e-commerce-glyph-bartama-glyph-64-bartama-graphic.png"
+								alt="...">
+							<h5 class="outlet-title ms-2">Bogor</h5>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4">
+					<div class="card mt-4 shadow">
+						<div class="card-body d-flex py-4 px-4 align-items-center">
+							<img src="https://img.icons8.com/external-bartama-outline-64-bartama-graphic/64/null/external-Shop-e-commerce-outline-bartama-outline-64-bartama-graphic.png"
+								alt="...">
+							<h5 class="outlet-title ms-2">Yogyakarta</h5>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4">
+					<div class="card mt-4 shadow">
+						<div class="card-body d-flex py-4 px-4 align-items-center">
+							<img src="https://img.icons8.com/external-bartama-glyph-64-bartama-graphic/64/null/external-Shop-e-commerce-glyph-bartama-glyph-64-bartama-graphic.png"
+								alt="...">
+							<h5 class="outlet-title ms-2">Solo</h5>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4">
+					<div class="card mt-4 shadow">
+						<div class="card-body d-flex py-4 px-4 align-items-center">
+							<img src="https://img.icons8.com/external-bartama-outline-64-bartama-graphic/64/null/external-Shop-e-commerce-outline-bartama-outline-64-bartama-graphic.png"
+								alt="...">
+							<h5 class="outlet-title ms-2">Bali</h5>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4">
+					<div class="card mt-4 shadow">
+						<div class="card-body d-flex py-4 px-4 align-items-center">
+							<img src="https://img.icons8.com/external-bartama-glyph-64-bartama-graphic/64/null/external-Shop-e-commerce-glyph-bartama-glyph-64-bartama-graphic.png"
+								alt="...">
+							<h5 class="outlet-title ms-2">Semarang</h5>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- review  -->
+	<div class="review" id="review">
+		<div class="text-uppercase fw-bold fs-4 text-center p-5">
+			<p>Review</p>
+		</div>
+		<div class="swiper-container review-slider">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide slide">
+					<i class="fa fa-quote-right"></i>
+					<div class="user">
+						<img src="assets/images/team-1.jpg" alt="">
+						<div class="user-info">
+							<h3>Ose Khakam P</h3>
+							<div class="stars">
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+							</div>
+						</div>
+					</div>
+					<p>Over all enak banget sih, cuma sayang kurang banyak, hehe</p>
+				</div>
+				<div class="swiper-slide slide">
+					<i class="fa fa-quote-right"></i>
+					<div class="user">
+						<img src="assets/images/team-2.jpg" alt="">
+						<div class="user-info">
+							<h3>Jeffey Cha</h3>
+							<div class="stars">
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star-half"></i>
+							</div>
+						</div>
+					</div>
+					<p>Enak bangetttttt, meong aku juga doyan!</p>
+				</div>
+				<div class="swiper-slide slide">
+					<i class="fa fa-quote-right"></i>
+					<div class="user">
+						<img src="assets/images/team-3.jpg" alt="">
+						<div class="user-info">
+							<h3>Riffah S</h3>
+							<div class="stars">
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+							</div>
+						</div>
+					</div>
+					<p>Teksturnya masih seger banget sih, lembut, manis, pokoknya enakkk banget. Gak nyesel deh beli
+						sini</p>
+				</div>
+				<div class="swiper-slide slide">
+					<i class="fa fa-quote-right"></i>
+					<div class="user">
+						<img src="assets/images/team-2.jpg" alt="">
+						<div class="user-info">
+							<h3>Hannie Pom</h3>
+							<div class="stars">
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star-half"></i>
+							</div>
+						</div>
+					</div>
+					<p>Pokoknya enak, temen-temen aku juga pada suka, bisa buat camilan juga di dorm</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- contact -->
+	<div id="contact" class="contact p-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="text-uppercase text-center fw-bold fs-4 p-5">
+						<p>Contact Us</p>
+					</div>
+				</div>
+				<form class="row g-3">
+					<div class="col-12 col-sm-12 col-md-6">
+						<input type="email" class="form-control" style="height: 50px" id="inputEmail4"
+							placeholder="First Name">
+					</div>
+					<div class="col-12 col-sm-12 col-md-6">
+						<input type="password" class="form-control" style="height: 50px" id="inputPassword4"
+							placeholder="Last Name">
+					</div>
+					<div class="col-12 col-sm-12 col-md-6">
+						<input type="email" class="form-control" style="height: 50px" id="inputEmail"
+							placeholder="Your Email">
+					</div>
+					<div class="col-12 col-sm-12 col-md-6">
+						<input type="number" class="form-control" style="height: 50px" id="inputPhone"
+							placeholder="Your Phone">
+					</div>
+					<div class="col-12">
+						<textarea class="form-control" placeholder="Your Message" id="floatingTextarea2"
+							style="height: 100px"></textarea>
+					</div>
+					<div class="col-12">
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" id="gridCheck">
+							<label class="form-check-label" for="gridCheck">
+								Remember me
+							</label>
+						</div>
+					</div>
+					<div class="col-12">
+						<button type="submit" class="btn btn-success">Send</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<!-- footer -->
+	<footer class="footer">
+		<div class="footer-left">
+			<h3><span class="text-success">Payment</span>Method</h3>
+			<div class="pay-cards">
+				<img src="assets/images/footer1.jpeg" alt="">
+				<img src="assets/images/footer2.jpg" alt="">
+				<img src="assets/images/footer3.jpg" alt="">
+			</div>
+			<p class="footer-copyright">Copyright © 2022 SaladLaffin. All Rights Reserved
+			</p>
+		</div>
+
+		<div class="footer-center">
+			<div>
+				<i class="fa fa-map-marker"></i>
+				<p><span>Indonesia</span>Jawa Tengah, Pemalang</p>
+			</div>
+			<div>
+				<i class="fa fa-phone"></i>
+				<p>+62 858-788-781-06</p>
+			</div>
+			<div>
+				<i class="fa fa-envelope"></i>
+				<p><a href="#">saladlaffin@gmail.com</a></p>
+			</div>
+		</div>
+		<div class="footer-right">
+			<p class="footer-follow">
+				<span class="text-success">Follow</span> Us
+			</p>
+			<div class="footer-media">
+				<a href="#"><i class="fa fa-youtube"></i></a>
+				<a href="#"><i class="fa fa-facebook"></i></a>
+				<a href="#"><i class="fa fa-twitter"></i></a>
+				<a href="https://www.instagram.com/shaffirariffahs/"><i class="fa fa-instagram"></i></a>
+				<a href="#"><i class="fa fa-linkedin"></i></a>
+			</div>
+
+		</div>
+
+
+	</footer>
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+	<!-- custom js file link  -->
+	<script src="style/style.js"></script>
+
+	<!-- JS Bootstrap -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>
